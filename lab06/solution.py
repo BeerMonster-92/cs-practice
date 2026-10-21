@@ -12,10 +12,7 @@ def common(first, second):
     return sorted(c)
 
 def only_in_first(first, second):
-    return True
+    c = set(first) - set(second)
+    return sorted(c)
 
 
-
-values = ["ошибка", "запуск", "ошибка", "проверка"]
-item = ["ошибка", "проверка"]
-print(common(values, item))
