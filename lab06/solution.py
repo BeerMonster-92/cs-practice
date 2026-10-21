@@ -5,7 +5,7 @@ def count_items(values):
     return counts
  
 def unique_sorted(values):
-    return sorted(set(values), key=True)
+    return sorted(set(values))
 
 def common(first, second):
     c = set(first) & set(second)
